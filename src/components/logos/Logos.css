@@ -1,0 +1,39 @@
+.logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+}
+
+.logo-grid-1{
+    background-color: #ff5a6e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1.5rem 0 7rem;
+    gap: 1rem;
+    color: #ffffff;
+}
+
+.logo-heading{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.logo-heading .highlight-num{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.logo-desc{
+    font-size: 13px;
+}
+
+.logo-grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.logo-grid-2 img{
+    cursor: pointer;
+}

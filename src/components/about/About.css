@@ -1,0 +1,99 @@
+.about{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    background-color: #F9F9F9;
+    height: 130vh;
+}
+
+.about-grid-1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.about-grid-1 img{
+    height: 70%;
+    width: 100%;
+    padding: 0 70px;    
+    margin-left: 20px;
+    margin-top: 1rem;
+}
+
+.about-grid-2{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-top: 7rem;
+    gap: 0.5rem;
+}
+
+.about-heading-2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff5a6e;
+}
+
+.about-heading-1{
+    font-size: 29px;
+    font-weight: 600;
+    color: #424242;
+    width: 55%;
+    margin-bottom: 17px;
+}
+    
+.about-desc{
+    color: #636262;
+    font-size: 13.5px;
+    line-height: 2;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 17px;
+}
+
+.about-lists {
+    list-style: none;
+}
+
+.about-list-items{
+    margin-bottom: 1.7rem;
+}
+
+.head .tick{
+    color:#ff5a6e;
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.about-list-items .head{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.head h3{
+    font-size: 14px;
+    color: #424242;
+    font-weight: 600;
+}
+
+.about-list-items .list-points{
+    font-size: 14px;
+    font-weight: 400;
+    color: #747474;
+    margin-left: 29px;
+}
+
+.btn-abt{
+    width: 25%;
+    border: none;
+    border-radius: 50px;
+    padding: 18px 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #ff5a6e;
+    cursor: pointer;
+    align-items: center;
+}
