@@ -9,6 +9,7 @@
     z-index: 1;
     transition: 0.3s ease-in-out;
     overflow: hidden;
+    box-shadow: 0px 9px 15px -10px rgba(0,0,0,0.1);
 }
 
 .header-shrink {
@@ -135,8 +136,7 @@
     font-weight: 500;
 }
 
-.home:hover > .nav-dropdown,
-.home:focus > .nav-dropdown {
+.home:hover > .nav-dropdown{
     opacity: 1;
     visibility: visible;
     z-index: 10;
@@ -145,8 +145,7 @@
     transition: all 0.4s ease-in-out;
 }
 
-.home:hover > .dropdown-on-scroll,
-.home:focus > .dropdown-on-scroll {
+.home:hover > .dropdown-on-scroll{
     opacity: 1;
     visibility: visible;
     z-index: 10;

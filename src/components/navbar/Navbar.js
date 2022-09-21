@@ -15,7 +15,7 @@ const Navbar = () => {
 
     const changeActiveValue = () => {
         const scrollValue = document.documentElement.scrollTop;
-        scrollValue > 900 ? setActiveScroll(true) : setActiveScroll(false)
+        scrollValue > 800 ? setActiveScroll(true) : setActiveScroll(false)
     }
 
     window.addEventListener('scroll', changeActiveValue);
